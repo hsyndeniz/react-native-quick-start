@@ -16,7 +16,7 @@ const Profile = () => {
 
     // ComponentDidMount
     useEffect(() => {
-        if (firebase.user.user) {
+        if (!firebase.user.user) {
             noAuth();
         } else {
             startApp();

@@ -2,14 +2,12 @@ import { Navigation } from 'react-native-navigation';
 import { gestureHandlerRootHOC } from 'react-native-gesture-handler';
 
 import Auth from './screens/Auth';
-import Register from './screens/Register';
 
 import { reduxProvider } from './redux/index';
 
 const Screens = new Map();
 
 Screens.set('auth', Auth);
-Screens.set('register', Register);
 
 // Register screens
 Screens.forEach((C, key) => {
