@@ -1,0 +1,61 @@
+{
+  "name": "boilerplate",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "androidx": "cd ./android && ./gradlew app:assembleDebug && ./gradlew installDebug",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-native-community/async-storage": "^1.11.0",
+    "@react-native-community/geolocation": "^2.0.2",
+    "@react-native-community/google-signin": "^4.0.3",
+    "@react-native-community/push-notification-ios": "^1.2.0",
+    "@react-native-firebase/app": "^7.1.4",
+    "@react-native-firebase/auth": "^8.0.2",
+    "axios": "^0.19.2",
+    "firebase": "^7.14.5",
+    "libphonenumber-js": "^1.7.52",
+    "lottie-ios": "^3.1.3",
+    "lottie-react-native": "^3.4.0",
+    "react": "16.11.0",
+    "react-native": "0.62.2",
+    "react-native-admob": "^2.0.0-beta.6",
+    "react-native-confirmation-code-field": "^6.2.0",
+    "react-native-fbsdk": "^2.0.0",
+    "react-native-gesture-handler": "^1.6.1",
+    "react-native-google-places-autocomplete": "^1.7.1",
+    "react-native-maps": "0.27.1",
+    "react-native-modal": "^11.5.6",
+    "react-native-navigation": "^6.7.1",
+    "react-native-navigation-hooks": "^6.0.2",
+    "react-native-phone-input": "^0.2.4",
+    "react-native-push-notification": "^3.5.2",
+    "react-native-twitter-signin": "^1.1.1",
+    "react-native-vector-icons": "^6.6.0",
+    "react-redux": "^7.2.0",
+    "redux": "^4.0.5",
+    "redux-logger": "^3.0.6",
+    "redux-persist": "^6.0.0",
+    "redux-saga": "^1.1.3",
+    "redux-thunk": "^2.3.0",
+    "rn-fetch-blob": "^0.12.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.1",
+    "@babel/runtime": "^7.10.1",
+    "@react-native-community/eslint-config": "^1.1.0",
+    "babel-jest": "^26.0.1",
+    "eslint": "^7.1.0",
+    "jest": "^26.0.1",
+    "metro-react-native-babel-preset": "^0.59.0",
+    "react-test-renderer": "16.11.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
